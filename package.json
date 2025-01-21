@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "mig": "npx prisma migrate dev --name init && npx prisma generate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
