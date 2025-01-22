@@ -19,8 +19,6 @@ model User {
   email             String   @unique
   referralsAsParent list[]   @relation("ParentToChild")
   referralsAsChild  list[]   @relation("ChildToParent")
-  level3            level3[]
-  level3            level3?
 }
 
 model list {
